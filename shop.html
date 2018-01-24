@@ -1,0 +1,134 @@
+<html>
+<head>
+    <title>Bike shop</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script_main.js"></script>
+</head>
+
+<body>
+<header>
+    <a href="index.html"> <img id="logo" src="images/home.png"></a>
+    <a href="#win2"><img id="question" src="images/question.gif"></a>
+</header>
+<div class="flexBox">
+    <nav>
+        <ul>
+            <a href="shop.html"><li> Магазин</li></a>
+
+            <a href="random.html"><li>Случайные шутки</li></a>
+            <a href="search.html"><li>Поисковик по Википедии</li></a>
+            <a href="weather.html"><li>Погода в вашем регионе</li></a>
+            <a href="slider.html"><li>Слайдер</li></a>
+            <a href="map.html"><li>Карта</li></a>
+        </ul>
+
+    </nav>
+    <article>
+        <!--модальное окно-->
+
+        <a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+            <div class="pic-right">
+                <img src="images/my_foto.png" />
+            </div>
+            <h2>Пример адаптивной верстки со множеством вложенных элементов</h2>
+            <p>В данном примере верстка выполненна на "чистом" CSS.</p>
+            </p>
+            <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+
+        <!---------------------------------------------->
+        <div class="flex-group">
+            <ul class="flex-container main">
+                <li class="flex-item">
+                    <div class="pic">
+                        <img src="images/pic_1.jpg">
+                    </div>
+                    <div class="price"> $77.99                 <!--цена-->
+                    </div>
+                    <div class="old_price"> <span>$155.25</span>
+                    </div>
+                    <div class="line"></div>
+
+                    <div class="description">Отличный велосипед
+                    </div>
+                    <div class="line_2"></div>
+                    <div class="lower">Новинка</div>
+                    <div class="vertical_lin">Бесплатная доставка</div>
+                    <div class="timer">08.30</div>
+                </li>
+            </ul>
+
+            <ul class="flex-container_slave">
+                <li class="first_card">                                  <!--первая карточка-->
+                    <img src="images/pic_2.jpg">
+                    <div class="description">
+                    </div>
+                    <div class="price"> $23.30                 <!--цена-->
+                    </div>
+                    <div class="old_price"> <span>$35.25</span>
+                    </div>
+                    <div class="lower">Новинка</div>
+                </li>
+
+
+
+
+                <li class="second_card">             <!--Вторая карточка-->
+                    <img src="images/pic_3.jpg">
+                    <div class="description">
+                    </div>
+                    <div class="price"> $20.30                 <!--цена-->
+                    </div>
+                    <div class="old_price"> <span>$39.00</span>
+                    </div>
+                    <div class="lower">Новинка</div>
+                    <div class="vertical_lin">3 года гарантии</div>
+                </li>
+
+
+
+                <li class="third_card">                      <!--Третья карточка-->
+                    <img src="images/pic_4.jpg">
+                    <div class="description">
+                    </div>
+                    <div class="price"> $99.99                 <!--цена-->
+                    </div>
+                    <div class="old_price"> <span>$122.50</span>
+                    </div>
+                    <div class="lower">Бесплатная доставка</div>
+                </li>
+
+
+
+                <li class="four_card">                      <!--Четвертая карточка-->
+                    <img src="images/pic_5.jpg">
+                    <div class="description">
+                    </div>
+                    <div class="price"> $500.00                 <!--цена-->
+                    </div>
+                    <div class="old_price"> <span>$1000</span>
+                    </div>
+                    <div class="lower">Новинка</div>
+                    <div class="vertical_lin">5 лет гарантии</div>
+
+                </li>
+            </ul>
+        </div>
+    </article>
+    <aside>
+        <img src="images/mogla-by-byt.jpg">
+        <img src="images/mogla-bit-2.jpeg">
+
+    </aside>
+
+</div>
+
+</body>
+<footer>Good_Company &copy <br> 2017</footer>
+
+</html>

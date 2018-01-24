@@ -1,0 +1,118 @@
+body{
+    background-image: url("http://edufuture.biz/images/6/6c/Book-180115-01.jpg");
+    background-size: 100%;
+}
+
+#question{
+    float: left;
+    margin-top: -7%;
+    margin-left: 75%;
+}
+
+#logo{
+    margin-left: 45%;
+}
+
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+img{
+    display:block;
+    margin:0 auto;
+    opacity: 0.7;
+}
+
+#replace{
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.from-control{
+    margin-left: 575px;
+}
+
+.container>a{
+    font-size: 25px;
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+li p{
+    color: black;
+}
+
+#output{
+    background-image: url("http://www.gandex.ru/upl/oboi/gandex.ru-12641_5784_25_1605.jpg");
+    margin-right: 200px;
+    margin-left: 200px;
+    color: green;
+    font-family: Candara;
+}
+
+#search{
+    display:block;
+    margin:0 auto;
+    visibility: hidden;
+}
+
+#searchTerm {
+    margin: 0 25%;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+
+article{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/****Button****/
+
+a.button13 {
+    display: inline-block;
+    width: 15em;
+    font-size: 80%;
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+    border-radius: 6px;
+    outline: none;
+    background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+    box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+a.button13:first-line{
+    font-size: 170%;
+    font-weight: 700;
+}
+a.button13:hover {
+    color: rgb(255,255,255);
+    background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+a.button13:active {
+    color: rgb(255,255,255);
+    border-color: #2970a9;
+    background-image: linear-gradient(#5796c8, #6aa2ce);
+    box-shadow: none;
+}

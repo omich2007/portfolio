@@ -1,0 +1,53 @@
+
+#messageBox{
+    width: 85%;
+    margin-left: 10%;
+    background: rgba(32, 212, 53, 0.9) ;
+    border-radius: 25px;
+}
+
+
+.btn{
+    font-size: 24px;
+    border-radius: 15px;
+    border:#817e7f ;
+    width: 95%;
+    height: 90%;
+    padding: 3px;
+    background: linear-gradient(to top, #817e7f, #efeced);
+    margin: 1.5% 2%;
+    box-shadow: #817e7f 0 0 10px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    text-shadow: rgba(255,255,255,0.5) 0 1px 0;
+    font-weight: bold;
+}
+
+.btn_insert{
+    margin: 0.2%;
+    width: 98%;
+    height: 9.2vh;
+    background-color: #cecbcc;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.outside{
+    border-radius: 16px;
+    margin: 10% 38%;
+    width: 25%;
+    height: 10vh;
+    border: #8b8889 solid 2px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+article{
+    height: 90%;
+    background: rgba(32, 212, 53, 0.6);
+    font-size: 32px;
+    font-family: Georgia;
+}
+

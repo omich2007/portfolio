@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title>Резюме</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/main_page.js"></script>
+</head>
+
+<body>
+
+<!--Модальное окно-->
+
+<a href="#x" class="overlay" id="win2"></a>
+<div class="popup">
+    <div class="pic-right">
+        <img src="images/my_foto.png" />
+    </div>
+    <h2>Мое резюме</h2>
+    <p>Простой Landing Page. С использование jQuery для фиксации
+    меню</p>
+    <a class="close" title="Закрыть" href="#close"></a>
+</div>
+
+<!--------------------------------------------------->
+
+
+    <div id="header">
+        <div id="navigation">
+            <ul id="menu">
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="random.html">Шутки</a></li>
+                <li><a href="search.html">Поисковик</a></li>
+                <li><a href="weather.html">Погода</a></li>
+                <li><a href="slider.html">Слайдер</a></li>
+                <li><a href="map.html">Карта</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <h1>Здравствуйте!</h1>
+    <p><img id="foto" src="images/my_foto_big.png">Меня звать Мельничук Андрей и я представляю свое портфолио.<br>
+        Для начала кратко о себе:
+        <ul>
+            <li>Возраст 31 год.</li>
+            <li>Образование - высшее инженерное.</li>
+            <li>Закончил Харьковский Национальный Университет Городского Хозяйства им. О.М.Бекетова.</li>
+            <li>В настоящее время работаю инженером</li>
+            <li>С 2014 по 2017 год проходил службу в Вооруженных Силах Украины. Учавствовал в АТО.</li>
+            <li>Женат. 1 ребенок.</li>
+            <li>телефон 095 911 2180</li>
+            <li>email: omich2007@gmail.com</li>
+    </ul>
+        Кратко опишу свои знания в сфере Front-end.
+    <ul>
+        <li>HTML и CSS</li>
+        <li>Java Script</li>
+        <li>jQuery</li>
+        <li>Angular</li>
+        <li>Адаптивная верстка</li>
+        <li>Работа с API и JSON</li>
+        <li>GitHub</li>
+        <li>Английский на уровне чтения документации</li>
+    </ul>
+
+    Далее я предлагаю посмотреть мои робочие проэкты. Сразу хочу отметить, что некоторые
+    работы<br> можно было выполнить  прощее на том же jQuery, но мне было важно разобраться в
+    Java Script поэтому писал "голый" код.<br>
+
+    <ul id="instruction">
+        <li>
+            На страницах моих работ Вы найдете этот значок<a href="#win2"> <div id="small_img"> <img id="ques" src="images/question.gif"></div></a>
+            при нажатии на него будет открываться окно, в котором
+            мною описан принципы роботы данного проекта.
+        </li>
+    </ul>
+    </p>
+    <div class="bg">
+        <div class="centerer">
+            <a href="shop.html" class="button">Мои проэкты</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

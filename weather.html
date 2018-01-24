@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style_weather.css"  type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <script src="js/script_weather.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://fcc-weather-api.glitch.me/"></script>
+    <script src="js/script_main.js"></script>
+</head>
+<body>
+
+<header>
+    <a href="index.html"> <img id="logo" src="images/home.png"></a>
+    <a href="#win2"><img id="question" src="images/question.gif"></a>
+</header>
+
+<div class="flexBox">
+    <nav>
+        <ul>
+            <a href="shop.html"><li> Магазин</li></a>
+            <a href="random.html"><li>Случайные шутки</li></a>
+            <a href="search.html"><li>Поисковик по Википедии</li></a>
+            <a href="weather.html"><li>Погода в вашем регионе</li></a>
+            <a href="slider.html"><li>Слайдер</li></a>
+            <a href="map.html"><li>Карта</li></a>
+        </ul>
+    </nav>
+    <article>
+
+        <div class="weatherShow">
+            <div style="clear: both"><br></div>
+            <div id="cityShow"></div>
+            <div id="cloudsShow"></div>
+            <div id="tempShow"></div>
+            <div id="iconShow"></div>
+            <div id="pressureShow"></div>
+            <div id="select">
+                <input type="radio" id="fahrenheit" name="btn">Фаренгейт
+                <input type="radio" id="cesium" name="btn">Цельсий
+        </div>
+        </div>
+
+    </article>
+
+    <aside>
+        <img src="images/mogla-by-byt.jpg">
+        <img src="images/mogla-bit-2.jpeg">
+    </aside>
+
+    <!--Модальное окно-->
+
+    <a href="#x" class="overlay" id="win2"></a>
+    <div class="popup">
+        <div class="pic-right">
+            <img src="images/my_foto.png" />
+        </div>
+        <h2>Погодный сайт показывающий текущую погоду в Вашем регионе.</h2>
+        <p>В этом примере, работа основанна на свойствах HTML5 геолокация.
+        Следует отметить, что для правильной работы примера, в браузере должна быть
+        разрешена использование геолокации.</p>
+        <p>Запрос к API ресурсам написан на "чистом" Java Script. После запроса Json
+        файл переобразуеться в информацию на экране.</p>
+        <p>В зависимости от погодных условий изменяеться иконка погодных условий и фон
+        body. Реализация основана на простых if ориентированая на влажность воздуха.
+        Конвертор на Фаренгейты основан на простом математическом вычислении.</p>
+
+        <a class="close" title="Закрыть" href="#close"></a>
+    </div>
+
+    <!--------------------------------------------------->
+</div>
+</body>
+</html>

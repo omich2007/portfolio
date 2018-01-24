@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Пошук в Вікіпедії</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/search.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script_main.js"></script>
+    <script src="js/script_search.js"></script>
+</head>
+
+<body>
+<header>
+    <a href="index.html"> <img id="logo" src="images/home.png"></a>
+    <a href="#win2"><img id="question" src="images/question.gif"></a>
+</header>
+<div class="flexBox">
+    <nav>
+        <ul>
+            <a href="shop.html"><li> Магазин</li></a>
+            <a href="random.html"><li>Случайные шутки</li></a>
+            <a href="search.html"><li>Поисковик по Википедии</li></a>
+            <a href="weather.html"><li>Погода в вашем регионе</li></a>
+            <a href="slider.html"><li>Слайдер</li></a>
+            <a href="map.html"><li>Карта</li></a>
+        </ul>
+    </nav>
+    <article>
+        <!--модальное окно-->
+
+        <a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+            <div class="pic-right">
+                <img src="images/my_foto.png" />
+            </div>
+            <h2>Поисковик по Украинской Википедии</h2>
+            <p>Здесь в работе был использован API Википедии. Запрос
+            выполнен на технологии Ajax. Полученный Json я трансформировал
+            в список с выводом на страницу. В списке можно выбрать
+            интересующий элемент при нажатии на которой пользователь
+            перейдет на сайт Википедии на нужную ему статью.
+            Либо можно воспользоваться случайной статьей.</p>
+
+            <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+
+        <!---------------------------------------------->
+        <div class = "container">
+            <h1>Пошук на Українській Вікіпедії</h1>
+                <a href="https:/uk.wikipedia.org/wiki/Special:Random">Випадкова статья</a>
+        <div style="clear: both"><br></div>
+            <div id="replace">Тисни на малюнок для пошуку
+                <img src="images/loup2-245x300.jpg" id="img" width="125" height="150" onclick="replacement()">
+            </div>
+        <div style="clear: both"><br></div>
+            <a href="#" id="search" class="button13">ПОШУК</a>
+        <ul id="output">
+        </ul>
+        </div>
+
+    </article>
+    <aside>
+        <img src="images/mogla-by-byt.jpg">
+        <img src="images/mogla-bit-2.jpeg">
+    </aside>
+
+</div>
+
+</body>
+
+
+</html>
+
+
+

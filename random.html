@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Жарти українською</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/randomButt.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script_main.js"></script>
+</head>
+
+<body>
+<header>
+    <a href="index.html"> <img id="logo" src="images/home.png"></a>
+    <a href="#win2"><img id="question" src="images/question.gif"></a>
+</header>
+<div class="flexBox">
+    <nav>
+        <ul>
+            <a href="shop.html"><li> Магазин</li></a>
+            <a href="random.html"><li>Случайные шутки</li></a>
+            <a href="search.html"><li>Поисковик по Википедии</li></a>
+            <a href="weather.html"><li>Погода в вашем регионе</li></a>
+            <a href="slider.html"><li>Слайдер</li></a>
+            <a href="map.html"><li>Карта</li></a>
+        </ul>
+    </nav>
+    <article>
+
+        <!--Модальное окно-->
+
+        <a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+            <div class="pic-right">
+                <img src="images/my_foto.png" />
+            </div>
+            <h2>Пример работы Java Script кода для вывода случайных фраз</h2>
+            <p>Здесь был реализован вывод случайных фраз на экран при помощи не сложного скрипта.
+            Фразы находяться в массиве откуда выбираються в случайном порядке.
+            Рандомный порядок обеспечивает скрипт с методом Math floor().
+            Также,по такому же принцыпу работает случайный фон для body.</p>
+
+            <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+
+        <!--------------------------------------------------->
+
+        <p>
+        <div style="clear: both"><br></div>
+
+        <div class="outside">
+            <div class="btn_insert">
+                <input type="button" class="btn" value="&#9733;ТИСНИ&#9733;">
+            </div>
+        </div>
+
+        <div id="messageBox">
+
+        <span id="message"></span>
+        </div>
+        <script src="js/random.js"></script>
+            </article>
+
+    <aside>
+        <img src="images/mogla-by-byt.jpg">
+        <img src="images/mogla-bit-2.jpeg">
+    </aside>
+
+</div>
+</body>
+<footer>Good_Company &copy <br> 2017</footer>
+
+</html>
